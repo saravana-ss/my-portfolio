@@ -10,7 +10,5 @@ def about(request):
 def contact(request):
     return HttpResponse("This is my homepage(/)")
 
-def project(request):
-    return HttpResponse("This is my homepage(/)")
 
     
