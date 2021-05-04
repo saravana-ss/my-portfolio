@@ -12,3 +12,5 @@ def contact(request):
 
 def project(request):
     return HttpResponse("This is my homepage(/)")
+
+    
