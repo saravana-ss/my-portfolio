@@ -7,13 +7,15 @@ def home(request):
     return render(request, 'home.html', context)
 
 def about(request):
-    return HttpResponse("This is my homepage(/)")
+    context = {'name' : 'Saravana', 'course' : 'Django'}
+    return render(request, 'about.html', context)
 
 def contact(request):
-    return HttpResponse("This is my homepage(/)")
+    context = {'name' : 'Saravana', 'course' : 'Django'}
+    return render(request, 'contact.html', context)
 
 def projects(request):
-    #return HttpResponse("This is my homepage(/)")
-    return render(request, 'projects.html')
+    context = {'name' : 'Saravana', 'course' : 'Django'}
+    return render(request, 'projects.html', context)
 
     
